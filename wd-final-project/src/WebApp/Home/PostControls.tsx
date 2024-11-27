@@ -1,5 +1,5 @@
 import { FaPlus } from "react-icons/fa6";
-import { useNavigate, useParams } from "react-router";
+import { useNavigate } from "react-router";
 
 export default function AssignmentControls() {
     const navigate = useNavigate();

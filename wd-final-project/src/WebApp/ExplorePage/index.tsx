@@ -14,7 +14,7 @@ export default function ExplorePage() {
                         <div className="card rounded-3 overflow-hidden">
                             <Link to={{/* Fill later*/}}
                                 className="wd-dashboard-course-link text-decoration-none text-dark" >
-                            <img src={post.image} width="100%" height={160} />
+                            <img src={post.image} width="100%" height={160} alt="something"/>
                             <div className="card-body">
                                 <h5 className="wd-dashboard-course-title card-title">
                                 {post.name} </h5>
